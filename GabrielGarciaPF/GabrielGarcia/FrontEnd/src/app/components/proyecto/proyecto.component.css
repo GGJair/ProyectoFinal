@@ -1,0 +1,23 @@
+.row{
+    padding: 20px;
+    background-color: rgb(3, 124, 230);
+}
+.contenedor{
+    width: auto;
+}
+.parte1, .parte2 {
+    display: inline-block;
+    text-align: justify;
+
+}
+.img-proyecto{
+    box-shadow: 10px 10px 30px black;
+}
+h1{
+    color: white;
+    text-decoration: underline;
+    font-size: 35px;
+}
+#titulo{
+    font-size: 20px;
+}

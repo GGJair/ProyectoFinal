@@ -1,0 +1,21 @@
+<div class="row">
+  <h1>EXPERIENCIA</h1>
+</div>
+
+
+<div class="row aling-items" *ngFor="let experience of experiences">
+  <div class="col-sm-12 col-md-7 col-lg-7 ">
+    <img src="{{experience.imagenExp}}" alt="" width="60px">
+  </div>
+  <div class="col text-center">
+  </div>
+  <div class="col-sm-12 col-md-7 col-lg-7 " id="titulo">
+    {{experience.tituloExp}}
+  </div>
+  <div class="col-sm-12 col-md-7 col-lg-7 ">
+    {{experience.fechaExp}}
+  </div>
+  <div class="col-sm-12 col-md-7 col-lg-7 ">
+    {{experience.descExp}}
+  </div>
+</div>

@@ -1,0 +1,24 @@
+<div class="row">
+  <h1>PROYECTOS</h1>
+</div>
+
+
+<div class="row aling-items" *ngFor="let proyect of proyects">
+    <div class="col-sm-12 col-md-7 col-lg-7 ">
+      <img src="{{proyect.imagenPro}}" alt="" width="60px">
+    </div>
+    <div class="col text-center">
+
+      
+
+    </div>
+    <div class="col-sm-12 col-md-7 col-lg-7 " id="titulo">
+      {{proyect.tituloPro}}
+    </div>
+    <div class="col-sm-12 col-md-7 col-lg-7 ">
+      {{proyect.fechaPro}}
+    </div>
+    <div class="col-sm-12 col-md-7 col-lg-7 ">
+      {{proyect.descPro}}
+    </div>
+</div>
